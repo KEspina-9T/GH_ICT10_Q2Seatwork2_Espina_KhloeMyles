@@ -1,0 +1,60 @@
+body {
+    font-family: Crimson text;
+    background-color: #ffe5ec;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Broadway;
+
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: #ff8fab;
+    color: white;
+    border-radius: 20px;
+
+}
+
+form {
+    text-align: center;
+}
+
+
+.container2 {
+    text-align: center;
+}
+
+
+
+.btn {
+    background-color: #ff8fab;
+
+}
+
+.footer {
+    background-color: #ff8fab;
+    color: #ff8fab;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    left: 0;
+}
+
+.footer a {
+    color: #ffc2d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #fb6f92;
+}

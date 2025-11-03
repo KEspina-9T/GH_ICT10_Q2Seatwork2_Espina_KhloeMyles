@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SW#2: Grade calculator</title>
+</head>
+
+<body>
+    <h1>Student Grade Calculator</h1>
+
+    <form>
+        <label>Enter your First Name:</label>
+        <input type="text" id="fname"> <br />
+        <label>Enter your Last Name:</label>
+        <input type="text" id="lname"> <br />
+        <label>Enter your Science Grade:</label>
+        <input type="number" id="gr1"> <br />
+        <label>Enter your Social Studies Grade:</label>
+        <input type="number" id="gr2"> <br />
+        <label>Enter your Math Grade:</label>
+        <input type="number" id="gr3"> <br />
+        <label>Enter your English Grade:</label>
+        <input type="number" id="gr4"> <br />
+        <label>Enter your Values Education Grade:</label>
+        <input type="number" id="gr5"> <br />
+        <label>Enter your TLE Grade:</label>
+        <input type="number" id="gr6"> <br /><br />
+        <button id="GWA" py-click="computing_grades" type="button" class="btn">Solve for GWA</button><br /><br />
+        <div class="container" id="output"></div>
+
+    </form>
+    <py-script src="main.py"></py-script>
+    <footer class="footer">
+        <p><a href="https://github.com/KEspina-9T?tab=repositories" target="_blank">Khloe Myles S. Espina | 10-Topaz</p>
+    </footer>
+</body>
+
+</html>
