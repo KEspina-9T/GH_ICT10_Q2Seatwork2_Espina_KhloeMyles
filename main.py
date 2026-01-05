@@ -22,12 +22,13 @@ def computing_grades(e):
     total_unit= (units[0] * 3) + (units[1]) + (units[2] * 2)
     gwa = total_sum / total_unit
 
-    display (f"{fname} + {lname}", target="output")
+    display (f"{fname} {lname}", target="output")
     display (f"{gr1} , {gr2} , {gr3} , {gr4} , {gr5} , {gr6}", target="output")
     display (f"You're Generat Weighted Average is {gwa}.", target="output")
     if gwa > 75:
         display(f'You passed', target='output')
     else:
         display(f'You failed', target='output')
+
 
 
