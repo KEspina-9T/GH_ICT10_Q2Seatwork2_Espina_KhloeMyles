@@ -25,5 +25,9 @@ def computing_grades(e):
     display (f"{fname} + {lname}", target="output")
     display (f"{gr1} , {gr2} , {gr3} , {gr4} , {gr5} , {gr6}", target="output")
     display (f"You're Generat Weighted Average is {gwa}.", target="output")
+    if gwa > 75:
+        display(f'You passed', target='output')
+    else:
+        display(f'You failed', target='output')
 
 
